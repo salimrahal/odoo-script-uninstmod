@@ -7,117 +7,117 @@ COMMENT
 
 echo "part 1-------------block 1"
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123  sale_report_forcast
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3  sale_report_forcast
 sleep 5
 #children: purchase_rfq_to_quotation, sales_product_additional_details_report
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 purchase_product_additional_details
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 purchase_product_additional_details
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_vat_closing
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_vat_closing
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 procurement_sale_forecast
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 procurement_sale_forecast
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 stock_landed_cost_query
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 stock_landed_cost_query
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 purchase_discount
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 purchase_discount
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_group_auditory
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_group_auditory
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_periods_initial
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_periods_initial
 
 sleep 5
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sales_order_line_serial_number
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sales_order_line_serial_number
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 jc_customer_fields
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 jc_customer_fields
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 jc_transfer_zero
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 jc_transfer_zero
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 aged_partner_balance
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 aged_partner_balance
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 purchase_landed_cost_estimated_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 purchase_landed_cost_estimated_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sw_tools
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sw_tools
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sw_landed_cost_report_new
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sw_landed_cost_report_new
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sw_incomingshipment_stage
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sw_incomingshipment_stage
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sw_boq_enhancement
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sw_boq_enhancement
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 cron_run_manually 
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 cron_run_manually 
 
 #COMMENT
 
 echo "--------------block 2..sleep 5"
 sleep 5
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_duplicate 
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_duplicate 
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 landed_cost_custom
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 landed_cost_custom
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 landed_cost_enhancement_jc
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 landed_cost_enhancement_jc
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 jc_so_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 jc_so_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 jc_je_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 jc_je_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 auto_backup_v8
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 auto_backup_v8
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sw_landedcost_enhancement
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sw_landedcost_enhancement
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 report_stock_shortcode
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 report_stock_shortcode
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 report_delivary_note
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 report_delivary_note
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 theme_yared
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 theme_yared
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 website_favicon
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 website_favicon
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_virtual_sales_ForbOnConf
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_virtual_sales_ForbOnConf
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_virtual_purchase_ForbOnConf
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_virtual_purchase_ForbOnConf
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_virtual_product
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_virtual_product
 
 sleep 5
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_internal_ref
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_internal_ref
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_sale_receipt_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_sale_receipt_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_purchase_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_purchase_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_payment_term 
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_payment_term 
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_journal_entries 
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_journal_entries 
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_invoices_validate_add_behavior
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_invoices_validate_add_behavior
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_invoice_custom_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_invoice_custom_report
 
 sleep 5
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_customer_check_new_fields
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_customer_check_new_fields
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_pricelist
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_pricelist
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_stock_inventory
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_stock_inventory
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_sale_order_margin
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_sale_order_margin
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_customer_security
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_customer_security
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_customer_notes 
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_customer_notes 
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_account_trial_balance_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_account_trial_balance_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 stock_picking_transfer_customization
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 stock_picking_transfer_customization
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 stock_picking_destination_journal
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 stock_picking_destination_journal
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sales_quotation_header_footer_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sales_quotation_header_footer_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 sales_create_invoice
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 sales_create_invoice
 
 
 echo 'sleep for 5 sec..'
@@ -125,87 +125,87 @@ sleep 5
 
 echo '----------block 3'
 #block 3.1: some error produces here: check log file in Salim's Desktop
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 purchases_margin_simulator
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 purchases_margin_simulator
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 purchase_costing_budget
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 purchase_costing_budget
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 hr_holidays_leave_request
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 hr_holidays_leave_request
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 hr_employee
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 hr_employee
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 crm_opportunities
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 crm_opportunities
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_voucher_payments
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_voucher_payments
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_supplier_invoices_update_description
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_supplier_invoices_update_description
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_sales_report
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_sales_report
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_invoice_customization
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_invoice_customization
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_customer_payment_new_fields
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_customer_payment_new_fields
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 boq
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 boq
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_custom
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_custom
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 report_changes
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 report_changes
 
 sleep 5
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_hr
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_hr
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_base
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_base
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_export
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_export
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 potential_project
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 potential_project
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 extra_move_email
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 extra_move_email
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 credit_debit_note
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 credit_debit_note
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_expense
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_expense
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 hr_holidays_compute_days
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 hr_holidays_compute_days
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 hr_leave_approval_mail
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 hr_leave_approval_mail
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 yared_Reporting_stock
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 yared_Reporting_stock
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 crm_claim_rma
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 crm_claim_rma
 
 #blk 3.2
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 product_warranty
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 product_warranty
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 crm_claim_number
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 crm_claim_number
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 report_webkit
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 report_webkit
 
 echo 'sleeping.. 10 sec'
 echo 'part 2---------block 4'
 sleep 10
 
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_check_fixed_3
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_check_fixed_3
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_check_fixed_2
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_check_fixed_2
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_check_fixed
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_check_fixed
 
 #account_check_jc: cannot be uninstalled, the account_voucher_workflow.xml need to be commented out
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 account_check_jc
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 account_check_jc
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 web_tree_image
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 web_tree_image
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 report_header_footer
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 report_header_footer
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 resources
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 resources
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 hr_public_holidays
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 hr_public_holidays
 sleep 5
-python Development/scripts/uninstall_odoo_module.py -d $1 -u admin -w 123 controller_report_xls
+python Development/scripts/odoo-script-uninstmod/uninstall_odoo_module.py -d $1 -u $2 -w $3 controller_report_xls
 
 #drop function after uninstalling all modules
 # drop function close_vat(integer, integer, integer, character varying, date, date, date, integer);
